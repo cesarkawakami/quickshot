@@ -1,0 +1,17 @@
+augroup QuickshotConfig
+    autocmd!
+    autocmd FileType javascript setlocal sts=2 sw=2
+    autocmd FileType json setlocal sts=2 sw=2
+    autocmd FileType html setlocal sts=2 sw=2
+augroup END
+
+""" Syntastic
+let g:syntastic_javascript_checkers = ['eslint', 'flow']
+let g:syntastic_javascript_eslint_exec = 'node_modules/.bin/eslint'
+let g:syntastic_javascript_flow_exec = 'node_modules/.bin/flow'
+
+""" CtrlP
+let g:ctrlp_custom_ignore = {
+    \ 'dir': '\v\.git$|\/node_modules$|\/out$',
+    \ 'file': '\/\.DS_Store$',
+    \ }
