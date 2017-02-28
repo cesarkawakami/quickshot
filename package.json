@@ -6,8 +6,5 @@
   "repository": "https://github.com/cesarkawakami/quickshot",
   "author": "Cesar Kawakami <cesarkawakami@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "electron-forge": "^2.8.2"
-  }
+  "dependencies": {}
 }
