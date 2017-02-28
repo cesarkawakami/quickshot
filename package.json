@@ -1,0 +1,13 @@
+{
+  "name": "quickshot",
+  "version": "0.1.0",
+  "description": "Quick screenshot app.",
+  "main": "main.js",
+  "repository": "https://github.com/cesarkawakami/quickshot",
+  "author": "Cesar Kawakami <cesarkawakami@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "electron-forge": "^2.8.2"
+  }
+}
