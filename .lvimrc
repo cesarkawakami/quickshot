@@ -1,9 +1,0 @@
-augroup QuickshotConfig
-    autocmd!
-    autocmd FileType javascript setlocal sts=2 sw=2
-    autocmd FileType json setlocal sts=2 sw=2
-    autocmd FileType xml setlocal sts=4 sw=4 noexpandtab
-    autocmd FileType html setlocal sts=2 sw=2
-augroup END
-
-let b:syntastic_javascript_eslint_exec = 'node_modules/.bin/eslint'
